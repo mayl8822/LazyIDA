@@ -2,11 +2,23 @@
   "IDAMetadataDescriptorVersion": 1,
   "plugin": {
     "name": "LazyIDA",
+    "version": "1.1.0",
     "entryPoint": "LazyIDA.py",
-    "categories": ["api-scripting-and-automation"],
-    "logoPath": "logo.png",
+    "description": "Make your IDA Lazy!",
     "idaVersions": ">=7.4",
-    "description" : "Make your IDA Lazy!",
-    "version": "1.1.0"
+    "platforms": ["windows-x86_64", "linux-x86_64", "macos-x86_64", "macos-arm64"],
+    "license": "MIT",
+    "categories": ["api-scripting-and-automation"],
+    "keywords": ["automation", "clipboard", "shortcuts", "vtable", "format-string"],
+    "logoPath": "logo.png",
+    "urls": {
+      "repository": "https://github.com/L4ys/LazyIDA"
+    },
+    "authors": [
+      {
+        "name": "Lays",
+        "email": "l4ys.tw@gmail.com"
+      }
+    ]
   }
 }

@@ -1,3 +1,11 @@
+## January 2026 (v1.1.0)
+### Improvements
+- Added support for IDA 9.2
+
+### Bug Fixes
+- Fixed missing `import sys`
+- Fixed compatibility with older IDA versions
+
 ## April 2025 (v1.0.0.5)
 ### Bug Fixes
 - Corrected variable in "Goto location" print statement to display accurate file offset information.
